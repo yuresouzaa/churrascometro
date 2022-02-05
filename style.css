@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font1: 'Balsamiq', cursive;
+    --font2: 'Poppins', sans-serif;
+  }
+header{
+    width: 100%;
+}
+#logo_header{
+    display: flex;
+    margin-top: 30px;
+    
+}
+#logo_header img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+#titulo{
+    margin-top: 20px;
+    text-align: center;
+    font-family: var(--font1);
+}
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+    background-color: #101942;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: var(--font2);
+    color: white;
+}
+.container h3{
+    color: white;
+    font-family: var(--font2);
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 25px;
+}
+input{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+
+    }
+
+button{
+    padding: 10px;
+    width: 200px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#resultado p{
+    display: flex;
+    color: black;
+    font-family: var(--font2);
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    font-size: 20px;
+}
+#resultado img{
+    width: 70px;
+    margin-right: 20px;
+    
+}
